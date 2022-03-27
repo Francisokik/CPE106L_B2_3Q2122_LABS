@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>517</x>
+      <y>253</y>
+      <w>253</w>
+      <h>385</h>
+    </coordinates>
+    <panel_attributes>STUDENT 1
+--
+-name: str
+-lyst: arr []
+
+--
+-_init_(self, name, number)
+-range(number) 
+-self.scores.append(100)
+-getName(self)
+-setScore(self,i,score)
+-getScore(self,i)
+-getAverage(self)
+-getHighSchore(self)
+-_str_(self)
+
++operator&lt;(self.name):boolean
++operator&gt;=(self.name):boolean
++operator!=(self.name):boolean
+-main() 
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
