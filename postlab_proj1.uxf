@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>45</x>
+      <y>243</y>
+      <w>207</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>STUDENT 1
+--
++self:str
+
+--
+-_init_(self, name, number)
+-range(number) 
+-self.scores.append(0)
+-getName(self)
+-setScore(self,i,score)
+-getScore(self,i)
+-getAverage(self)
+-getHighSchore(self)
+-_str_(self)
+-main() 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>369</x>
+      <y>288</y>
+      <w>189</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>STUDENT 2
+--
++self2:str
+
+--
+-_init(self2, name, number)
+-range(number)
+-self2.scores.append(0)
+-equalityTest(self, self2)
+-greaterTest(self, self2)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>243</x>
+      <y>351</y>
+      <w>144</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
