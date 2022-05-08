@@ -1,0 +1,23 @@
+import pygame
+import numpy as np
+
+
+rowNum = 6
+colNum = 7
+
+boxSize = 100
+
+def gameBoard():
+    board = np.zeros((rowNum,colNum))
+    return board
+ 
+def piecePlayed(board, row, col, piece):
+    board[row][col] = piece
+ 
+def validLoc(board, col):
+    return board[rowNum-1][col] == 0
+ 
+def nextRow(board, col):
+    for r in range(rowNum):
+        if board[r][col] == 0:
+            return r
